@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Document</title>
+    </head>
+    <body>
+        <h2>My Contact Details</h2>
+        <table>
+            <thead>
+                <tr>
+                <th>Contact via</th>
+                <th>Detail</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Phone</td>
+                    <td>9033775599</td>
+                </tr>
+                <tr>
+                    <td>Email</td>
+                    <td>vishwasvbheda@gmail.com</td>
+                </tr>
+            </tbody>
+        </table>
+        <hr>
+        <h3>Leave a Message</h3>
+        <form action="mailto:vishwasvbheda@gmail.com" method="post" enctype="text/plain">
+            <label>Your Name</label>
+            <input type="text" name="Your Name" id="">
+            <label>Your DOB</label>
+            <input type="date" name="DOB" id=""><br><br><br>
+            <label>Your passport size photo</label>
+            <input type="file" name="Photo"><br><br><br>
+            <label>Your phone number:</label>
+            <input type="tel" name="Number" id=""><br><br><br>
+            <fieldset>
+                <legend>How would you like to be contacted</legend>
+                    <div>
+                        <input type="radio" name="contact" id="Mobile number">
+                        <label>Mobile number</label>
+                    </div>
+                    <div>    
+                        <input type="radio" name="contact" id="Email">
+                        <label>Email</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="contact" id="Mail">
+                        <label>Mail</label>
+                    </div>
+            </fieldset>
+            <br><br><br>
+            <label">Your Message</label><br>
+            <textarea name="Message" id="" cols="30" rows="10"></textarea><br>
+            <input type="submit" name="" id="">
+        </form>
+    </body>
+</html>
